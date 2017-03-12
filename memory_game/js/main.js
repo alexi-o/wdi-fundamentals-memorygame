@@ -56,6 +56,10 @@ var createBoard = function() {
 	}
 }
 
+var newGame = function() {
+	document.location.reload();
+}
+
 createBoard();
 
 
